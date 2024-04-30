@@ -1,0 +1,27 @@
+@import "./home.scss";
+@import "./contact.scss";
+@import "./about.scss";
+
+
+main{
+    width: 100%;
+    height: auto;
+    border: solid;
+   padding-top: 20vh;
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-color: #ddd9cc83;
+        margin-top: 1px;
+    }
+}
+
+
+
+
+@media screen and (max-width:991px){
+    main{
+        padding-top: 270px;
+        min-width: 320px;
+    }
+}

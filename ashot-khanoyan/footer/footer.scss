@@ -1,0 +1,22 @@
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #ab9184;
+    min-width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    >p{
+       
+        color: aliceblue;
+        >a{
+            text-decoration: none;
+            color: white;
+
+        }
+    }
+    >p::first-letter{
+        color: white;
+    }
+}
